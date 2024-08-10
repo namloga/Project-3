@@ -367,7 +367,7 @@ header {
   height: 100%;
 }
 
-.benefit-img .back{
+.benefit-img .back {
   object-fit: cover;
   width: 87%;
 }
@@ -376,7 +376,7 @@ header {
   position: absolute;
   width: 56%;
   top: 25%;
-  left:40%;
+  left: 40%;
 }
 
 .benefit__text {
@@ -391,11 +391,11 @@ header {
 }
 
 .benefit__text--desc {
-  margin: 18px 0 62px;;
+  margin: 18px 0 62px;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.7;
-  color: #575f66
+  color: #575f66;
 }
 
 .benefit__text .btn-benefit {
@@ -405,4 +405,100 @@ header {
   border-radius: 40px;
 }
 
+/* dentists */
+
+.dentists {
+  margin-top: 170px;
+}
+
+.dentists__text {
+  text-align: center;
+}
+
+.dentists__text--title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #10375c;
+  margin-bottom: 38px;
+}
+
+.dentists__text--btn {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 15px 27px;
+}
+
+.dentists__list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.dentist {
+  min-width: 270px;
+}
+
+.dentist__img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 318px;
+  width: 100%;
+  background-color: #eaf6ff;
+  border-radius: 6px;
+}
+
+.dentist__img img {
+  object-fit: cover;
+}
+
+.dentist__info {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.dentist-name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #10375c;
+}
+
+.dentist-university {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #575f66;
+}
+
+.dentists__slides {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dentists__slides .btn-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.dentists__slides .btn-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  width: 40px;
+  height: 40px;
+  background-color: #2e80ce;
+  border-radius: 50%;
+  border: 1px solid #2e80ce;
+  color: #fff;
+}
 
