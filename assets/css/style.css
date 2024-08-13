@@ -3,12 +3,12 @@
 }
 
 html {
-  font-size: 62, 5%;
+  font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: "Sora", "Sans-serif";
+  font-family: "Sora", sans-serif;
 }
 
 :root {
@@ -17,11 +17,22 @@ body {
 }
 
 .btn {
+  --height: 60px;
+  display: inline-block;
+  height: var(--height);
   color: #fff;
-  padding: 15px 20px;
+  padding: 0 20px;
   background-color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
   border-radius: 28px;
   text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .slides {
@@ -97,12 +108,6 @@ header {
   background-color: #fff;
 }
 
-.nav__logo img {
-  width: 55px;
-  height: 55px;
-  object-fit: cover;
-}
-
 .nav__logo-text {
   display: block;
   color: #fff;
@@ -119,19 +124,19 @@ header {
   font-weight: 300;
 }
 
-.nav__list-item {
-  width: calc(363px * 2);
-}
-
 .nav__list-item ul {
   height: 100%;
   display: flex;
   justify-content: space-around;
+  gap: 42px;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .nav__list-item .item {
   color: var(--primary-color-text);
+  color: #fff;
 }
 
 .nav__list-item .item.active {
@@ -183,8 +188,8 @@ header {
 }
 
 .hero__text-title {
-  font-size: 4.8rem;
-  font-weight: 500;
+  font-size: 7rem;
+  font-weight: 600;
   color: #fff;
   line-height: 1.2;
 }
@@ -192,7 +197,7 @@ header {
 .hero__text-desc {
   margin-top: 22px;
   color: var(--primary-color-text);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -204,7 +209,7 @@ header {
   align-items: center;
   color: #fff;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .btn-booking {
@@ -290,21 +295,21 @@ header {
 }
 
 .services__list .item__text .name-service {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #10375c;
 }
 
 .services__list .item__text .info-service {
   margin-top: 8px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: #575f66;
   line-height: 1.2;
 }
 
 .services__list .btn-services {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 400;
   padding: 25px 50px;
   border-radius: 35px;
@@ -333,7 +338,7 @@ header {
 
 .work__text--desc {
   margin-top: 18px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #575f66;
   max-width: 670px;
@@ -374,21 +379,21 @@ header {
 
 .work .name-step {
   margin-top: 35px;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 600;
   color: #10375c;
 }
 
 .work .desc-step {
   margin: 28px 0 18px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.7;
   color: #575f66;
 }
 
 .work .info-addition {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #575f66;
 }
@@ -427,7 +432,7 @@ header {
 }
 
 .benefit__text--title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   line-height: 1;
   color: #10375c;
@@ -442,8 +447,8 @@ header {
 }
 
 .benefit__text .btn-benefit {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 300;
   padding: 20px 52px;
   border-radius: 40px;
 }
@@ -459,14 +464,14 @@ header {
 }
 
 .dentists__text--title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   color: #10375c;
   margin-bottom: 38px;
 }
 
 .dentists__text--btn {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   padding: 15px 27px;
 }
@@ -502,14 +507,14 @@ header {
 }
 
 .dentist-name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #10375c;
 }
 
 .dentist-university {
   margin-top: 15px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #575f66;
 }
@@ -581,15 +586,15 @@ header {
 }
 
 .mobile__text--title {
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 5rem;
+  font-weight: 600;
   line-height: 1.2;
 }
 
 .mobile__text--desc {
   margin-top: 18px;
   margin-bottom: 38px;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.7;
 }
@@ -627,12 +632,12 @@ header {
 
 .body-app p {
   line-height: 1.2;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .body-app span {
   display: block;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 /* news */
@@ -656,14 +661,14 @@ header {
 .news__text--title {
   max-width: 600px;
   margin-bottom: 28px;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .news__text--link {
   color: #10375c;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -724,7 +729,7 @@ header {
 }
 
 .new__title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.7;
   color: #10375c;
@@ -732,7 +737,7 @@ header {
 
 .new__desc {
   margin: 10px 0 12px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 300;
   color: #575f66;
   line-height: 1.8;
@@ -756,14 +761,14 @@ header {
 .arrange__text--title {
   padding-top: 100px;
   color: #10375c;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 
 .arrange__text--desc {
   max-width: 740px;
   margin: 38px auto 60px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #575f66;
   font-weight: 300;
 }
@@ -778,7 +783,7 @@ header {
 
 .btn-appointment {
   border-radius: 40px;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 20px 40px;
 }
 
@@ -805,7 +810,7 @@ footer .container {
 
 .ad-desc {
   margin-top: 21px;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.8;
   color: #a9b3bb;
@@ -840,7 +845,7 @@ footer .container {
 }
 
 .supports-1 {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
@@ -849,7 +854,7 @@ footer .container {
 }
 .list-supports-2 {
   margin-top: 20px;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #a9b3bb;
 }
@@ -910,14 +915,16 @@ footer .container {
 
 .supports-desc .btn-subscribe {
   border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 footer .ps {
   padding: 57px 0 42px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  color: #aab3ba;
+  color: hsl(206, 10%, 70%);
 }
 
 .ps::before {
