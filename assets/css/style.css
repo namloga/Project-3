@@ -186,7 +186,8 @@ header {
 }
 
 .hero__text {
-  width: 50%;
+  width: 44%;
+  flex-grow: 0;
 }
 
 .hero__text-title {
@@ -220,6 +221,7 @@ header {
 }
 
 .hero__img {
+  flex-shrink: 1;
   width: 50%;
   display: flex;
   align-items: center;
@@ -405,7 +407,6 @@ header {
 }
 
 .benefit .content {
-  height: 533px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -413,20 +414,23 @@ header {
 
 .benefit-img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  padding-bottom: 121px;
+ 
 }
 
 .benefit-img .back {
   object-fit: cover;
-  width: 87%;
+  width: 512px;
+  height: 370px;
 }
 
 .benefit-img .front {
   position: absolute;
-  width: 56%;
-  top: 25%;
-  left: 40%;
+  width: 332px;
+  height: 370px;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
 }
 
 .benefit__text {
