@@ -17,9 +17,7 @@ body {
 }
 
 .btn {
-  --height: 60px;
   display: inline-block;
-  height: var(--height);
   color: #fff;
   padding: 0 20px;
   background-color: var(--primary-color);
@@ -43,7 +41,7 @@ body {
 }
 
 .info-addition {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #575f66;
   text-decoration: none;
@@ -136,6 +134,9 @@ header {
 
 .nav__list-item .item {
   color: var(--primary-color-text);
+}
+
+.nav__list-item .item:hover {
   color: #fff;
 }
 
@@ -169,6 +170,7 @@ header {
 }
 
 .nav__regis .btn-sign-up {
+  padding: 8px 20px;
   color: #fff;
 }
 
@@ -213,7 +215,7 @@ header {
 }
 
 .btn-booking {
-  padding: 25px 46px;
+  padding: 15px 46px;
   border-radius: 35px;
 }
 
@@ -473,11 +475,15 @@ header {
 .dentists__text--btn {
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+.btn-dentists {
   padding: 15px 27px;
 }
 
 .dentists__list {
   margin-top: 70px;
+  padding: 15px 27px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -528,7 +534,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -539,7 +545,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   width: 40px;
   height: 40px;
   background-color: #2e80ce;
@@ -877,7 +883,7 @@ footer .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -891,7 +897,7 @@ footer .container {
 }
 
 .supports-desc {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.8;
   color: #a9b3bb;
@@ -914,6 +920,7 @@ footer .container {
 }
 
 .supports-desc .btn-subscribe {
+  padding: 10px 21px;
   border-radius: 4px;
   font-size: 1.4rem;
   font-weight: 600;
